@@ -1,0 +1,621 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    direction: ltr;
+    color: #363636;
+    overflow-x: hidden;
+}
+
+/* ---- Start nav bar -----*/
+
+.navbar.bg-light{
+    background:rgba(255,255,255,1) !important;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    padding-right:10px;
+    padding-left: 10px;
+    font-weight: 600
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.navActive{
+    text-decoration: underline;
+}
+.mainSection{
+    color: white;
+    width: 100%;
+    height: auto;
+    position: relative;
+    
+}
+.mainSection .container .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7)
+}
+.mainSection h1{
+    font-size: 72px;
+    font-weight: bold;
+}
+.mainSection span{
+    display: block;
+    font-size: 18px;
+}
+.mainSection a.btn-primary{
+    background: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 15px 55px;
+    color: #e42837;
+    font-size: 18px;
+    margin-top: 100px;
+}
+.mainSection a.btn-primary:hover{
+    background: transparent;
+    color: white;
+}
+
+/*---- Start slide show  -----*/
+.carousel-indicators li{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #757575;
+}
+.carousel-indicators li.active{
+    background-color: #e5e5e5;
+}
+.carousel-caption{
+    bottom: 30%;
+}
+.carousel-caption h5{
+    font-size: 22px;
+    color: #e5e5e5
+}
+.carousel-caption p{
+    padding: 10px 80px;
+    font-size: 36px;
+}
+.whateWeDoSection{
+    
+}
+.whateWeDoSection .container{
+    position: relative;
+    padding: 70px 0;
+    width: 100%;
+    height: auto;
+    background-image: url(../img/home/ID_008_Kitchen.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.whateWeDoSection .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7)
+}
+.whateWeDoSection p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+.whateWeDoSection .readMore{
+    display: inline-block;
+    width: 115px;
+    height: 45px;
+    background-color: #fff;
+    font-size: 14px;
+    border: 1px solid #000;
+    color: #000;
+    line-height: 45px;
+    text-align: center;
+    text-decoration: none;
+}
+.whateWeDoSection .readMore:hover{
+    background-color: #000;
+    border: 1px solid #000;
+    color: #fff;
+    transition: 0.4s;
+}
+.whateWeDoSection .container .title{
+    width: 370px;
+    border-bottom: 3px solid #e5e5e5;
+}
+.whateWeDoSection .container .title span{
+    display: inline-block;
+    margin-left: 70px;
+    width: 300px;
+    height: 70px;
+    background-color: #e5e5e5;
+    font-size: 38px;
+    font-weight: bolder;
+    color: #fff;
+    line-height: 70px;
+    text-align: center;
+}
+/* --- End slid Show ---- */
+.section {
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+.section h2{
+    font-size: 60px;
+    font-weight: bold;
+}
+.section .readMore{
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    background-color: #000;
+    font-size: 14px;
+    border: 1px solid #000;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+.section .readMore:hover{
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000;
+    transition: 0.4s;
+}
+.section .imgBox{
+    max-width: 400px;
+    min-height: 500px;
+    border: 15px solid #e5e5e5;
+    transition: 0.4s;
+}
+.section .imgBox div,
+.section .imgBox img{
+    min-height: 500px;
+}
+.aboutUs .imgBox >div{
+    top: -35px;
+    left: 35px;
+    box-shadow: 0 0 10px 0 #e5e5e5
+}
+.section .container .title{
+    width: 250px;
+    border-bottom: 3px solid #e5e5e5;
+}
+.section .container .title span{
+    display: inline-block;
+    margin-left: 70px;
+    width: 180px;
+    height: 50px;
+    background-color: #e5e5e5;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+.Portofoliosection .imgBox{
+    margin-top: 100px;
+    max-width: 700px;
+    min-height: 400px;
+}
+.Portofoliosection .imgBox >div{
+    top: -35px;
+    left: -35px;
+    box-shadow: 0 0 10px 0 #e5e5e5
+}
+.Portofoliosection .container .title{
+    width: 350px;
+    border-bottom: 3px solid #e5e5e5;
+}
+.Portofoliosection .container .title span{
+    display: inline-block;
+    margin-left: 50px;
+    width: 300px;
+    height: 50px;
+    background-color: #e5e5e5;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+.Portofoliosection .villa2 >div{
+    top: -35px;
+    left: 35px;
+    box-shadow: 0 0 10px 0 #e5e5e5
+}
+.Portofoliosection .nomber{
+    font-size: 36px;
+    color: #e5e5e5;
+    font-weight: bold;
+}
+.Portofoliosection h2{
+    font-size: 36px;
+}
+.Portofoliosection .line{
+    display: inline-block;
+    width: 80px;
+    height: 7px;
+    background-color: #e5e5e5;
+}
+.featuresDesc h2 .red{
+    color: #e01c3d;
+}
+.featuresDesc p{
+    font-size: 18px;
+    color: #808080;
+}
+
+/*----footer Section Srart ---*/
+
+footer{
+    
+}
+footer .container{
+    position: relative;
+    padding: 70px 0;
+    padding-bottom: 20px;
+    width: 100%;
+    height: auto;
+    background-image: url(../img/home/GF_MB_001.jpg);
+    background-position: center;
+    background-size: cover;
+}
+footer .container .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85)
+}
+footer .descContact i{
+    font-size: 28px;
+    padding-right: 15px;
+    
+}
+footer .socialLinks a{
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: #000;
+    text-align: center;
+    line-height: 35px;
+    font-size: 18px;
+    transition: 0.4s;
+}
+footer .socialLinks a:hover{
+    background-color: #b5b5b5;
+    transition: 0.4s;
+}
+footer .contact input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-size: 20px;
+}
+footer .contact input::placeholder{
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 1.5px;
+}
+footer .contact textarea{
+    background-color: transparent;
+    resize: none;
+    color: #fff;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+}
+footer .contact textarea::placeholder{
+    color: #fff;
+    font-size: 20px;
+    padding-top: 30px;
+}
+footer .copyRight{
+    margin: 0 auto;
+    border-top: 2px solid #fff;
+    color: #b5b5b5;
+}
+footer .copyRight p{
+    display: inline-block;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    color: #b5b5b5;
+    font-size: 14px;
+}
+/*----footer Section End ---*/
+
+
+/* ///////////////////////////////
+----------Start About Us Page ---------
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+/*-----Start AboutUsSection------*/
+.aboutUsSection{
+    padding: 0;
+}
+.aboutUsSection .container{
+    position: relative;
+    min-height: 400px;
+    background-image: url(../img/home/ID_005_Dining%20Room.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.aboutUsSection .container .row{
+    min-height: 100%;
+}
+.aboutUsSection .container span{
+    margin: 0 auto;
+    width: 100px;
+    height: 7px;
+    background-color: #e5e5e5
+}
+.aboutUsSection .container h1{
+    letter-spacing: 1.5px;
+}
+.aboutUsSection .container .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7)
+}
+.HelloSection{
+    padding-top: 75px;
+    padding: 75px;
+}
+.HelloSection .imgBox{
+    border: 15px solid #e5e5e5;
+    transition: 0.4s;
+}
+.HelloSection .featuresImg{
+    margin-top: 50px;
+}
+.HelloSection .imgBox div,
+.HelloSection .imgBox img{
+    min-height: 400px;
+}
+.HelloSection .imgBox >div{
+    top: -35px;
+    left: 35px;
+    box-shadow: 0 0 10px 0 #e5e5e5
+}
+.HelloSection h2{
+    font-size: 48px;
+    font-weight: bold;
+}
+.HelloSection h2 >span{
+    font-weight: 100;
+}
+/*-----End AboutUsSection------*/
+/*-----Start whatWeDoSection------*/
+
+.whateWeDo{
+    padding-bottom: 120px;
+}
+.whateWeDo h2{
+    font-weight: 900;
+    font-size: 42px;
+}
+.whateWeDo h3{
+    font-weight: bold;
+    font-size: 22px;
+}
+.whateWeDo p{
+    font-weight: 700;
+    font-size: 14px;
+}
+.whateWeDo .col-lg-4{
+    min-height: 400px;
+}
+.whateWeDo .box{
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-height: 380px;
+    box-shadow: 10px 10px 10px 0 #e5e5e5;
+}
+/*-----End whatWeDoSection------*/
+
+/* ///////////////////////////////
+----------End About Us Page ---------
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+/* ///////////////////////////////
+----------Start Portofolio Page ---------
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+/*-----Start PrivateResidenceSection------*/
+.PrivateResidenceSection {
+    padding: 70px 0;
+}
+.PrivateResidenceSection .bgImg{
+    position: relative;
+    min-width: 100%;
+    min-height: 50%;
+    background-image: url(../img/portfolio/ID_011_Family%20&%20Study.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.PrivateResidenceSection .container .bgImg .boxOverLay{
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 80%;
+    min-height: 80%;
+    text-align: center;
+    color: #e5e5e5;
+    padding-top: 20%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.PrivateResidenceSection .container .rightSec{
+    overflow: hidden;
+}
+.PrivateResidenceSection .container .rightSec img{
+    width: 600px;
+    min-height: 80%;
+    transform: translateX(-30%);
+}
+/*-----End PrivateResidenceSection------*/
+/* ///////////////////////////////
+----------Start Portofolio Page ---------
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+/* ///////////////////////////////
+----------Start contactUs Page ---------
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+/*-----Start contactUsSection------*/
+.projecDetails .villaDubai{
+    padding-top: 20px;
+    color: #e5e5e5;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.5
+}
+.projecDetails .featuresDesc .line{
+    width: 100px;
+    background-color: #222;
+}
+.contactUsSection{
+    padding: 70px 0;
+}
+.contactUsSection .container{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.contactUsSection hr{
+    width: 90%;
+border-width: 2px;
+}
+.contactUsSection h5{
+   color: #a5a5a5;
+    font-size: 14px;
+    font-weight: 500
+}
+.contactUsSection p{
+   color: #353535;
+    font-size: 12px;
+}
+.contactUsSection .container i{
+    width: 50px;
+    height: 50px;
+    border: 1.5px solid #e5e5e5;
+    border-radius: 50%;
+    color: #e5e5e5;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bolder;
+    line-height: 50px;
+    transform: rotateY(180deg)
+}
+.contactUsSection .container input{
+    margin: 10px 0px;
+    padding: 5px 15px;
+    height: 45px;
+    border: 1px solid #e5e5e5;
+}
+.contactUsSection .container input:nth-child(2){
+/*    margin-right: 0;*/
+    display: inline-block;
+    width: 47%;
+}
+.contactUsSection .container input:nth-child(3){
+    margin-left: 23px;
+    display: inline-block;
+    width: 48%;
+}
+.contactUsSection .container textarea{
+    resize: none;
+    padding: 5px 15px;
+    border: 1px solid #e5e5e5;
+}
+.contactUsSection .container .btn{
+    border-radius: 0;
+}
+
+/*-----End contactUsSection------*/
+
+/* ///////////////////////////////
+----------End contactUs Page ---------
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+/* ///////////////////////////////
+----------Start projec Details Page ---------
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+
+.projecDetails h2{
+    font-size: 34px;
+}
+.gallerySection{
+    padding-bottom: 130px;
+    padding-top: 70px;
+}
+.gallerySection p{
+    font-size: 14px;
+    font-weight: 600;
+}
+.gallerySection .fCol a:nth-child(1) img{
+    min-height: 30%;
+}
+.gallerySection .sCol a:nth-child(1) img{
+    min-height: 50%;
+}
+.gallerySection .sCol a:nth-child(2) img{
+    min-height: 30%;
+}
+.gallerySection .thCol a:nth-child(1) img{
+    min-height: 33%;
+}
+
+/* ///////////////////////////////
+----------End projec Details Page ---------
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+@media (max-width :992px){
+    .whateWeDoSection .container .title{
+        margin-left: -90px;
+    }
+    .carousel-caption p {
+        padding: 10px 30px;
+        font-size: 24px;
+    }
+    .featuresImg{
+        padding-left: 100px;
+    }
+    .featuresDesc{
+        text-align: center;
+    }
+    .section{
+        text-align: center;
+    }
+    .PrivateResidenceSection .bgImg{
+        min-height: 500px;
+    }
+    .contactUsSection .container input:nth-child(2){
+        width: 100%;
+    }
+    .contactUsSection .container input:nth-child(3){
+        margin-left: 0;
+        width: 100%;
+    }
+    .gallerySection .fCol{
+        margin-bottom: 80px;
+    }
+    .gallerySection .sCol{
+        margin-bottom: 105px;
+    }
+}
