@@ -183,13 +183,13 @@ whateWeDoSection{
 }
 .section .imgBox{
     max-width: 400px;
-    min-height: 500px;
+    min-height: 400px;
     border: 15px solid #e5e5e5;
     transition: 0.4s;
 }
 .section .imgBox div,
 .section .imgBox img{
-    min-height: 500px;
+    min-height: 400px;
 }
 .aboutUs .imgBox >div{
     top: -35px;
