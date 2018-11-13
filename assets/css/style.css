@@ -429,6 +429,7 @@ footer .copyRight p{
 .whateWeDo p{
     font-weight: 700;
     font-size: 14px;
+    word-wrap: break-word;
 }
 .whateWeDo .col-lg-4{
     min-height: 400px;
