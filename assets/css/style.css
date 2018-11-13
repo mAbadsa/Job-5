@@ -34,6 +34,10 @@ body{
     position: relative;
     
 }
+.mainSection .col-12{
+    padding-right: 0px;
+    padding-left: 0px;
+}
 .mainSection .container .overlay{
     position: absolute;
     top: 0;
@@ -174,6 +178,9 @@ whateWeDoSection{
     color: #000;
     transition: 0.4s;
 }
+.aboutUs .readMore{
+    margin-left: 95px!important;
+}
 .section .imgBox{
     max-width: 400px;
     min-height: 500px;
@@ -302,6 +309,9 @@ footer .socialLinks a:hover{
     background-color: #b5b5b5;
     transition: 0.4s;
 }
+footer .contact{
+    padding-right: 100px!important;
+}
 footer .contact input{
     outline: none;
     border: none;
@@ -330,6 +340,7 @@ footer .contact textarea::placeholder{
     padding-top: 30px;
 }
 footer .copyRight{
+    max-width: 85.5%;
     margin: 0 auto;
     border-top: 2px solid #fff;
     color: #b5b5b5;
@@ -435,8 +446,8 @@ footer .copyRight p{
     min-height: 400px;
 }
 .whateWeDo .box{
-    margin-left: 9px;
-    margin-right: 9px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 50px;
     padding-top: 50px;
     padding-left: 15px;
@@ -625,7 +636,7 @@ border-width: 2px;
         font-size: 24px;
     }
     .featuresImg{
-        padding-left: 250px;
+        padding-left: 90px;
     }
     .featuresDesc{
         text-align: center;
