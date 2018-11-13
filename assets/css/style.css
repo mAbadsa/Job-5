@@ -434,6 +434,8 @@ footer .copyRight p{
     min-height: 400px;
 }
 .whateWeDo .box{
+    margin-left: 7px;
+    margin-right: 7px;
     margin-top: 50px;
     padding-top: 50px;
     padding-left: 15px;
